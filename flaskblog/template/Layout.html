@@ -38,6 +38,9 @@
                         </li>
                         {% if current_user.is_authenticated %}
                         <li class="nav-item ">
+                            <a class="nav-link text-dark " href="{{ url_for( 'new_post') }} ">New Post</a>
+                        </li>
+                        <li class="nav-item ">
                             <a class="nav-link text-dark " href="{{ url_for( 'logout') }} ">Logout</a>
                         </li>
                         <li class="nav-item ">
