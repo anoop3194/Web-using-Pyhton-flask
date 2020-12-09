@@ -8,19 +8,6 @@ from flaskblog.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 
 
-'''
-posts = [{
-    'author': 'Anoop Chaudhary',
-    'title': 'Blog post',
-    'content': 'First post content',
-    'date_posted': 'June 15, 2020'
-},
-    {'author': 'Ranjeet Chaudhary',
-     'title': 'Blog post 2',
-     'content': 'second post content',
-     'date_posted': 'June 16, 2020'}
-]
-'''
 
 @app.route('/')
 @app.route('/home')
